@@ -1,0 +1,100 @@
+*{
+    font-family: 'Nunito', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+body{
+    margin: 0;
+    padding: 0;
+}
+footer{
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    background-color: black;
+    color: white;
+}
+.logo {
+    background-color: black;
+    flex: 1;
+    text-align: center;
+}
+@media (min-width: 768px) {
+    .logo{
+        flex-direction: row;
+        justify-content: space-between;
+    }
+}
+.display-4{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: red;
+    font-weight: 900
+}
+img{
+    width: 150px;
+}
+
+.nav{
+    background-color: rgb(44, 45, 46);
+    display: flex;
+    flex-direction: column;
+}
+@media (min-width: 768px) {
+    .nav{
+        flex-direction: row;
+        justify-content: space-between;
+    }
+}
+.nav a {
+    text-decoration: none;
+    font-size: 15px;
+    font-weight: 700;
+    padding: 10px;
+    color: white;
+    margin-right: 150px;
+}
+.nav a:hover{
+    color: red;
+}
+.card{
+    display: flex;
+    justify-content: flex-end;
+    flex-direction: row-reverse
+}
+a {
+    text-decoration: none;
+    color: black;
+}
+.btn-danger:hover{
+    background-color: rgba(0, 0, 0, 0.37);
+    color: red;
+}
+
+.juego {
+    width: 50%;
+    float: none;
+    margin: 0 10px;
+}
+.container2 h1:hover{
+    color: red;
+}
+.container2{
+    background-color: black;
+}
+.col h1 {
+    color: white;
+}
+
+.container2 ul li {
+    color: white;
+}
+.container2 h5{
+    color: white;
+}
+
+
+
+
+
